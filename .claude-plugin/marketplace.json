@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "matt-marketplace",
+  "description": "Matt Prabu's personal Claude Code skill collection — book formatting, property analysis, and image prompt generation.",
+  "owner": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "matt-skills",
+      "description": "Three-skill toolkit: format prose into book layout, analyze US residential properties, and generate optimized AI image prompts.",
+      "source": "./plugins/matt-skills",
+      "category": "productivity"
+    }
+  ]
+}

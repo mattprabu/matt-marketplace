@@ -1,0 +1,10 @@
+{
+  "name": "matt-skills",
+  "description": "Book formatting, property analysis, and image prompt generation skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}
