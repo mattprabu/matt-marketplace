@@ -7,8 +7,11 @@ A personal Claude Code plugin marketplace with three practical skills.
 | Skill | What it does |
 |---|---|
 | `book-formatter` | Formats raw prose into professional book layout with front matter, headings, and typography |
-| `analyze-property` | Analyzes a US residential property — valuation, location, investment snapshot |
+| `analyze-property` | Deep analysis of a single US residential property — valuation, location, investment snapshot |
+| `screen-properties` | Bulk-screens a list of US properties and ranks them by investment potential |
 | `nb2-img-prompt` | Generates optimized image prompts for Midjourney, DALL-E, and Stable Diffusion |
+| `bytebytego-explainer` | Transforms any technical topic into a ByteByteGo-style visual explanation with diagrams |
+| `resume-builder` | Creates, revises, or tailors resumes for specific job postings |
 
 ## Install
 
