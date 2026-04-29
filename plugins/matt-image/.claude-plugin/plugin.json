@@ -1,6 +1,6 @@
 ﻿{
-  "name": "screen-properties",
-  "description": "Bulk-screens multiple US residential properties and ranks them by investment potential.",
+  "name": "matt-image",
+  "description": "AI image prompt generation — optimized prompts for Midjourney, DALL-E, and Stable Diffusion.",
   "version": "1.0.0",
   "author": {
     "name": "Matt Prabu",

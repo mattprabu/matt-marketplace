@@ -1,6 +1,6 @@
 # Matt's Claude Marketplace
 
-Personal Claude Code plugin marketplace. Each skill is its own installable plugin.
+Personal Claude Code plugin marketplace — 4 themed plugins.
 
 ## Add this marketplace
 
@@ -10,22 +10,54 @@ Personal Claude Code plugin marketplace. Each skill is its own installable plugi
 
 ## Plugins
 
-| Plugin | What it does | Install |
-|---|---|---|
-| `analyze-property` | Deep analysis of a single US residential property | `/plugin install analyze-property` |
-| `book-formatter` | Formats prose into professional book layout | `/plugin install book-formatter` |
-| `bytebytego-explainer` | ByteByteGo-style visual technical explainers | `/plugin install bytebytego-explainer` |
-| `nb2-img-prompt` | Optimized image prompts for Midjourney, DALL-E, SD | `/plugin install nb2-img-prompt` |
-| `resume-builder` | Resume creation, revision, and job tailoring | `/plugin install resume-builder` |
-| `screen-properties` | Bulk-screens and ranks multiple properties | `/plugin install screen-properties` |
+### matt-image
+> AI image prompt generation
 
-## Usage examples
+| Skill | Invoke |
+|---|---|
+| `nb2-img-prompt` | `/matt-image:nb2-img-prompt woman in silk dress, rooftop at golden hour` |
 
 ```
-/analyze-property:analyze-property 123 Main St, Austin TX
-/book-formatter:book-formatter path/to/manuscript.md
-/bytebytego-explainer:bytebytego-explainer how Kafka works
-/nb2-img-prompt:nb2-img-prompt woman in silk dress, rooftop at golden hour
-/resume-builder:resume-builder Senior Software Engineer at a fintech startup
-/screen-properties:screen-properties
+/plugin install matt-image
+```
+
+---
+
+### matt-property
+> US residential property analysis & screening
+
+| Skill | Invoke |
+|---|---|
+| `analyze-property` | `/matt-property:analyze-property 123 Main St, Austin TX` |
+| `screen-properties` | `/matt-property:screen-properties` |
+
+```
+/plugin install matt-property
+```
+
+---
+
+### matt-job
+> Career and resume toolkit
+
+| Skill | Invoke |
+|---|---|
+| `resume-builder` | `/matt-job:resume-builder Senior Software Engineer at fintech` |
+
+```
+/plugin install matt-job
+```
+
+---
+
+### matt-study
+> Learning and content formatting
+
+| Skill | Invoke |
+|---|---|
+| `book-formatter` | `/matt-study:book-formatter path/to/manuscript.md` |
+| `bytebytego-explainer` | `/matt-study:bytebytego-explainer how Kafka works` |
+
+```
+/plugin install matt-study
 ```

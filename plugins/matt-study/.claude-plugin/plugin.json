@@ -1,6 +1,6 @@
 ﻿{
-  "name": "book-formatter",
-  "description": "Formats written prose into professional book layout with front matter, headings, and typography.",
+  "name": "matt-study",
+  "description": "Learning and content tools — ByteByteGo-style explainers and professional book formatting.",
   "version": "1.0.0",
   "author": {
     "name": "Matt Prabu",

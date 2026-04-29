@@ -1,6 +1,6 @@
 ﻿{
-  "name": "analyze-property",
-  "description": "Analyzes a single US residential property — valuation, comps, scoring, and investment snapshot.",
+  "name": "matt-property",
+  "description": "US residential property tools — deep single-property analysis and bulk investment screening.",
   "version": "1.0.0",
   "author": {
     "name": "Matt Prabu",

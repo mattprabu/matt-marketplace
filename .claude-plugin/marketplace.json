@@ -1,46 +1,34 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "matt-marketplace",
-  "description": "Matt Prabu's personal Claude Code skill collection. Install skills individually.",
+  "description": "Matt Prabu's personal Claude Code plugin marketplace.",
   "owner": {
     "name": "Matt Prabu",
     "email": "matt.prabu.ad@gmail.com"
   },
   "plugins": [
     {
-      "name": "analyze-property",
-      "description": "Analyzes a single US residential property — valuation, comps, scoring, and investment snapshot.",
-      "source": "./plugins/analyze-property",
+      "name": "matt-image",
+      "description": "AI image prompt generation — optimized prompts for Midjourney, DALL-E, and Stable Diffusion.",
+      "source": "./plugins/matt-image",
       "category": "productivity"
     },
     {
-      "name": "book-formatter",
-      "description": "Formats written prose into professional book layout with front matter, headings, and typography.",
-      "source": "./plugins/book-formatter",
+      "name": "matt-property",
+      "description": "US residential property tools — deep single-property analysis and bulk investment screening.",
+      "source": "./plugins/matt-property",
       "category": "productivity"
     },
     {
-      "name": "bytebytego-explainer",
-      "description": "Transforms any technical topic into a ByteByteGo-style visual explanation with diagrams and layered depth.",
-      "source": "./plugins/bytebytego-explainer",
+      "name": "matt-job",
+      "description": "Career toolkit — resume creation, revision, and job-specific tailoring.",
+      "source": "./plugins/matt-job",
       "category": "productivity"
     },
     {
-      "name": "nb2-img-prompt",
-      "description": "Generates optimized, safety-compliant image prompts for Midjourney, DALL-E, and Stable Diffusion.",
-      "source": "./plugins/nb2-img-prompt",
-      "category": "productivity"
-    },
-    {
-      "name": "resume-builder",
-      "description": "Comprehensive resume creation, revision, and tailoring for specific job postings.",
-      "source": "./plugins/resume-builder",
-      "category": "productivity"
-    },
-    {
-      "name": "screen-properties",
-      "description": "Bulk-screens multiple US residential properties and ranks them by investment potential.",
-      "source": "./plugins/screen-properties",
+      "name": "matt-study",
+      "description": "Learning and content tools — ByteByteGo-style explainers and professional book formatting.",
+      "source": "./plugins/matt-study",
       "category": "productivity"
     }
   ]
