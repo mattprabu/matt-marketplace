@@ -1,16 +1,46 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "matt-marketplace",
-  "description": "Matt Prabu's personal Claude Code skill collection — book formatting, property analysis, and image prompt generation.",
+  "description": "Matt Prabu's personal Claude Code skill collection. Install skills individually.",
   "owner": {
     "name": "Matt Prabu",
     "email": "matt.prabu.ad@gmail.com"
   },
   "plugins": [
     {
-      "name": "matt-skills",
-      "description": "Six-skill toolkit: book formatting, property analysis & screening, image prompt generation, technical explainers, and resume building.",
-      "source": "./plugins/matt-skills",
+      "name": "analyze-property",
+      "description": "Analyzes a single US residential property — valuation, comps, scoring, and investment snapshot.",
+      "source": "./plugins/analyze-property",
+      "category": "productivity"
+    },
+    {
+      "name": "book-formatter",
+      "description": "Formats written prose into professional book layout with front matter, headings, and typography.",
+      "source": "./plugins/book-formatter",
+      "category": "productivity"
+    },
+    {
+      "name": "bytebytego-explainer",
+      "description": "Transforms any technical topic into a ByteByteGo-style visual explanation with diagrams and layered depth.",
+      "source": "./plugins/bytebytego-explainer",
+      "category": "productivity"
+    },
+    {
+      "name": "nb2-img-prompt",
+      "description": "Generates optimized, safety-compliant image prompts for Midjourney, DALL-E, and Stable Diffusion.",
+      "source": "./plugins/nb2-img-prompt",
+      "category": "productivity"
+    },
+    {
+      "name": "resume-builder",
+      "description": "Comprehensive resume creation, revision, and tailoring for specific job postings.",
+      "source": "./plugins/resume-builder",
+      "category": "productivity"
+    },
+    {
+      "name": "screen-properties",
+      "description": "Bulk-screens multiple US residential properties and ranks them by investment potential.",
+      "source": "./plugins/screen-properties",
       "category": "productivity"
     }
   ]

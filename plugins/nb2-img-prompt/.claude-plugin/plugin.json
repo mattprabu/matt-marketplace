@@ -1,0 +1,10 @@
+﻿{
+  "name": "nb2-img-prompt",
+  "description": "Generates optimized, safety-compliant image prompts for Midjourney, DALL-E, and Stable Diffusion.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}

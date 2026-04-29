@@ -1,0 +1,10 @@
+﻿{
+  "name": "analyze-property",
+  "description": "Analyzes a single US residential property — valuation, comps, scoring, and investment snapshot.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}

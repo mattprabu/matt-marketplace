@@ -1,0 +1,10 @@
+﻿{
+  "name": "book-formatter",
+  "description": "Formats written prose into professional book layout with front matter, headings, and typography.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}

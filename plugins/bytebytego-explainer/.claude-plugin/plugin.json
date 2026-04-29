@@ -1,0 +1,10 @@
+﻿{
+  "name": "bytebytego-explainer",
+  "description": "Transforms any technical topic into a ByteByteGo-style visual explanation with diagrams and layered depth.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}

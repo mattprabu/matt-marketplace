@@ -1,0 +1,10 @@
+﻿{
+  "name": "resume-builder",
+  "description": "Comprehensive resume creation, revision, and tailoring for specific job postings.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Prabu",
+    "email": "matt.prabu.ad@gmail.com"
+  },
+  "homepage": "https://github.com/mattprabu/matt-marketplace"
+}

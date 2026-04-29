@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property Comparison — 3 properties</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  background: #0a0a0a; color: #e8e8e8; line-height: 1.6;
+  padding: 40px 20px;
+}
+.container { max-width: 1200px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+.subtitle { color: #888; margin-bottom: 30px; }
+
+.rec-block {
+  background: #141414;
+  border: 1px solid #222;
+  border-left: 4px solid;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 30px;
+}
+.rec-label {
+  font-size: 0.75rem; letter-spacing: 0.15em;
+  color: #888; font-weight: 700;
+}
+.rec-addr {
+  font-size: 1.4rem; color: #fff; font-weight: 700;
+  margin: 6px 0;
+}
+.rec-reason { color: #bbb; font-size: 0.95rem; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #141414;
+  border: 1px solid #222;
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+th.prop-header {
+  background: #1a1a1a;
+  font-family: 'DM Sans';
+  font-size: 0.9rem;
+  padding: 16px 18px;
+  position: relative;
+  min-width: 180px;
+}
+.prop-addr { color: #fff; font-weight: 500; font-size: 0.9rem; line-height: 1.3; }
+.prop-sub { color: #888; font-size: 0.75rem; font-family: 'DM Mono'; margin-top: 4px; }
+.rec-badge {
+  display: inline-block;
+  background: rgba(29,185,84,0.15); color: #1db954;
+  font-size: 0.65rem; padding: 3px 8px;
+  border-radius: 3px; margin-bottom: 6px;
+  letter-spacing: 0.1em; font-weight: 700;
+}
+td.metric-label {
+  text-align: left;
+  color: #888;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+td {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.95rem;
+  color: #e8e8e8;
+}
+tr.key-metric td { font-size: 1.05rem; color: #fff; }
+td.winner {
+  background: rgba(29,185,84,0.12);
+  color: #1db954;
+  font-weight: 500;
+  position: relative;
+}
+td.winner:before {
+  content: "*";
+  position: absolute;
+  left: 10px;
+  color: #1db954;
+  font-size: 1rem;
+  font-weight: 700;
+}
+tr.verdict-row td { font-size: 1rem; padding: 18px; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #1a1a1a; }
+tr:hover td.winner { background: rgba(29,185,84,0.18); }
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+  color: #666;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Side-by-Side Comparison</h1>
+<div class="subtitle">Comparing 3 properties · * marks the winner for each metric</div>
+<div class="rec-block" style="border-left-color:#1db954"><div class="rec-label">RECOMMENDATION</div><div class="rec-addr">123 Main St, Indianapolis, IN 46201</div><div class="rec-reason">Strongest GREEN verdict with composite 80 percent</div></div>
+<table>
+<thead><tr>
+<th class="metric-label" style="text-align:left">Metric</th>
+<th class="prop-header"><div class="prop-addr">4521 Oak Ridge Dr, Tampa, FL 33625</div><div class="prop-sub">$385,000 · 3/2.0 · 1,680 sqft</div></th><th class="prop-header"><div class="rec-badge">RECOMMENDED</div><div class="prop-addr">123 Main St, Indianapolis, IN 46201</div><div class="prop-sub">$120,000 · 3/1.5 · 1,400 sqft</div></th><th class="prop-header"><div class="prop-addr">789 Elm St, Dallas, TX 75201</div><div class="prop-sub">$250,000 · 3/2.0 · 1,600 sqft</div></th>
+</tr></thead>
+<tbody>
+<tr class=""><td class="metric-label">Price</td><td class="">$385,000</td><td class="winner">$120,000</td><td class="">$250,000</td></tr><tr class="key-metric"><td class="metric-label">Monthly Cash Flow</td><td class="">-$720</td><td class="winner">+$219</td><td class="">-$392</td></tr><tr class="key-metric"><td class="metric-label">Cap Rate</td><td class="">3.89%</td><td class="winner">8.33%</td><td class="">4.26%</td></tr><tr class="key-metric"><td class="metric-label">Cash-on-Cash</td><td class="">-8.02%</td><td class="winner">7.82%</td><td class="">-6.72%</td></tr><tr class="key-metric"><td class="metric-label">DSCR</td><td class="">0.63</td><td class="winner">1.36</td><td class="">0.69</td></tr><tr class=""><td class="metric-label">1% Rule</td><td class="">0.68%</td><td class="winner">1.17%</td><td class="">0.84%</td></tr><tr class="key-metric"><td class="metric-label">5-Year IRR</td><td class="">0.78%</td><td class="winner">14.86%</td><td class="">1.92%</td></tr><tr class=""><td class="metric-label">Cash to Close</td><td class="">$107,800</td><td class="winner">$33,600</td><td class="">$70,000</td></tr><tr class="key-metric"><td class="metric-label">Composite Score</td><td class="">8%</td><td class="winner">80%</td><td class="">8%</td></tr><tr class="verdict-row"><td class="metric-label">Verdict</td><td class="">🔴 RED</td><td class="winner">🟢 GREEN</td><td class="">🔴 RED</td></tr>
+</tbody></table>
+<div class="footer">
+Decision-support analysis, not financial advice. Verify all numbers before making any investment decision.
+</div>
+</div>
+</body>
+</html>
